@@ -1,0 +1,43 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size:24px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.location, .destination {
+background-color: rgb(240, 240, 240);
+color:rgb(88, 88, 88);
+display:block;
+border: none;
+padding-bottom: 12px;
+padding-left: 48px;
+padding-right: 48px;
+padding-top: 12px;
+margin-bottom: 5px;
+}
+
+.destination {
+    margin-bottom: 25px;
+}
+.request-button {
+background-color: black;
+color: white;
+border: none;
+padding: 10px;
+font-weight: 600;
+cursor: pointer;
+}
+
+.schedule-button {
+background-color: rgb(240, 240, 240);
+color:black;
+border: none;
+padding: 10px;
+font-weight: 600;
+margin-left: 15px;
+cursor: pointer;
+}

@@ -1,0 +1,135 @@
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+/* <p> comes with top and bottom margin by default */
+
+.video-stats {
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.video-author {
+    color: rgb(96,96,96);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.video-description {
+    font-size: 14px;
+    color: rgb(96,96,96);
+    width: 280px;
+    line-height: 22px;
+    margin-bottom: 80px;
+}
+
+/* general technique: 1# create html. 2# style with css one by one */
+/* css specificity: the selector that's more specific has higher priority EX: A class is more specific than just targeting
+an html element, like using "p {" */
+
+    /* BOX MODEL SHIT
+        MARGIN: Space outside the element.
+        BORDER: yk.
+        PADDING: Space inside the element. */
+
+.rich-shit {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227, 65, 64);
+    color:white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 800px;
+}
+
+.shop {
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.shop:hover {
+    text-decoration: underline;
+}
+
+/* Groceries attempt DOWN BELOW */
+
+.shop-title {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 16px;
+    text-align: center;
+}
+ 
+.learn-more-link {
+    text-align: center;
+    color: rgb(62, 116, 197);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* freeCodeCamp attempt down below */
+
+.fcc-title {
+font-weight: bold;
+font-size: 18px;
+margin-bottom: 6px;
+}
+
+.user {
+    color: rgb(96,96,96);
+    font-weight: lighter;
+}
+.fcc-info {
+width:400px;
+margin-bottom: 12px;
+}
+
+.tag {
+    color: rgb(72, 153, 199);
+}
+
+.tag:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(32, 96, 133);
+}
+
+.go-button {
+  margin-top: 15px;
+  width: 100px;
+ background: rgb(45, 109, 45);
+ color: white;
+ font-size: 15px;
+ border-radius: 5px;
+ padding: 5px 5px 5px 5px;
+ text-align: center;
+ transition: opacity 0.15s;
+}
+
+.go-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    opacity: 0.9;
+}
